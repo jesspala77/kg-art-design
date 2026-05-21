@@ -1,0 +1,75 @@
+{
+  "contact": {
+    "phoneDisplay": "(305) 492-2930",
+    "phoneHref": "tel:+13054922930",
+    "address": "12201 SW 128 Court, Suite 105 Miami, FL 33186",
+    "mapsHref": "https://www.google.com/maps/search/?api=1&query=12201%20SW%20128%20Court%20Suite%20105%20Miami%20FL%2033186",
+    "websiteUrl": "https://www.artanddesignbykandg.com/",
+    "websiteDisplay": "artanddesignbykandg.com"
+  },
+  "transformations": [
+    {
+      "id": 1,
+      "title": "Modern Kitchen Transformation",
+      "description": "From outdated and closed-off to bright, open, and luxury living with a finish that feels custom from every angle.",
+      "before": "/images/before-1.avif",
+      "after": "/images/after-1.avif",
+      "socialHook": "This kitchen went from dated to custom luxury.",
+      "caption": "A brighter layout, cleaner finishes, and a custom look changed the entire feel of this kitchen. This is what happens when every detail is designed with intention."
+    },
+    {
+      "id": 2,
+      "title": "Custom Cabinetry Upgrade",
+      "description": "A dated cabinet layout upgraded into a cleaner, sharper space with a more polished custom-built presence.",
+      "before": "/images/before-2.avif",
+      "after": "/images/after-2.avif",
+      "socialHook": "Cabinetry can completely change the room.",
+      "caption": "This upgrade gave the space a sharper, more refined presence. The result feels cleaner, more custom, and more aligned with a high-end home."
+    },
+    {
+      "id": 3,
+      "title": "Statement Kitchen Refresh",
+      "description": "A dramatic before-and-after that replaces ordinary finishes with a brighter, more elevated kitchen experience.",
+      "before": "/images/project-03-before.webp",
+      "after": "/images/project-03-after.webp",
+      "socialHook": "A full kitchen refresh with instant impact.",
+      "caption": "This transformation proves how much the right finish, layout, and visual balance can elevate a kitchen. The after feels brighter, more polished, and built to impress."
+    },
+    {
+      "id": 4,
+      "title": "Premium Storage Transformation",
+      "description": "A functional space reworked into a cleaner, more intentional design that looks organized, custom, and high-end.",
+      "before": "/images/project-04-before.webp",
+      "after": "/images/project-04-after.webp",
+      "socialHook": "Storage, but make it look custom.",
+      "caption": "Function matters, but presentation changes everything. This project turned a practical area into a cleaner, more intentional part of the home."
+    },
+    {
+      "id": 5,
+      "title": "Luxury Built-In Moment",
+      "description": "A plain area turned into a refined focal point with a richer finish, stronger lines, and a showroom-ready feel.",
+      "before": "/images/project-05-before.webp",
+      "after": "/images/project-05-after.webp",
+      "socialHook": "From plain wall to luxury focal point.",
+      "caption": "A built-in moment should feel like it belongs to the room. This upgrade added structure, warmth, and a premium focal point that changes the entire space."
+    },
+    {
+      "id": 6,
+      "title": "Clean Modern Upgrade",
+      "description": "A simple before becomes a polished custom result built for better flow, cleaner detail, and everyday impact.",
+      "before": "/images/project-06-before.webp",
+      "after": "/images/project-06-after.webp",
+      "socialHook": "Clean lines. Better flow. Bigger impact.",
+      "caption": "The goal was simple: make the space feel cleaner, sharper, and more intentional. The finished result gives the room a modern custom presence."
+    },
+    {
+      "id": 7,
+      "title": "High-End Finish Reveal",
+      "description": "The kind of transformation that changes the whole feel of the room: sharper, brighter, and instantly more expensive.",
+      "before": "/images/project-07-before.webp",
+      "after": "/images/project-07-after.webp",
+      "socialHook": "The finish makes the difference.",
+      "caption": "This reveal is all about the final feel: brighter, sharper, and instantly more elevated. Details like this are what make a space feel expensive."
+    }
+  ]
+}
