@@ -448,6 +448,34 @@ function AnimatedCounter({ value, label }: { value: string; label: string }) {
   );
 }
 
+function InstagramFeed() {
+  return (
+    <div className="w-full overflow-hidden rounded-2xl border border-white/10 bg-white/[0.05] p-6">
+      <div className="space-y-4">
+        <div className="text-center">
+          <p className="text-sm uppercase tracking-[0.2em] text-amber-300">Follow Us</p>
+          <h3 className="mt-2 text-2xl font-bold text-white">@kg_art_design</h3>
+        </div>
+        
+        <div className="text-center">
+          <a
+            href="https://www.instagram.com/kg_art_design"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-6 py-3 font-bold text-white transition hover:shadow-lg hover:shadow-pink-500/50"
+          >
+            Follow on Instagram →
+          </a>
+        </div>
+        
+        <p className="text-center text-xs text-white/60">
+          See our latest transformations, before & afters, and design tips
+        </p>
+      </div>
+    </div>
+  );
+}
+
 function Logo({ hero = false }: { hero?: boolean }) {
   return (
     <a href="#" className="group flex items-center gap-3" aria-label="K & G Art Design home">
@@ -853,6 +881,10 @@ export default function Page() {
                 <p className="mt-3 text-sm leading-6 text-white/60">{post.caption}</p>
               </div>
             ))}
+          </div>
+
+          <div className="mt-12">
+            <InstagramFeed />
           </div>
         </div>
       </section>
