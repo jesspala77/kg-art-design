@@ -49,6 +49,9 @@ const instagramPosts: InstagramPost[] = [
 
 const { phoneDisplay, phoneHref, address, mapsHref, websiteUrl, websiteDisplay } = projectData.contact;
 
+const instagramHandle = "@kandgartdesigns";
+const instagramUrl = "https://www.instagram.com/kandgartdesigns/";
+
 const proofPoints = [
   { value: "7", label: "Featured transformations" },
   { value: "Miami", label: "Local showroom and service area" },
@@ -454,12 +457,12 @@ function InstagramFeed() {
       <div className="space-y-4">
         <div className="text-center">
           <p className="text-sm uppercase tracking-[0.2em] text-amber-300">Follow Us</p>
-          <h3 className="mt-2 text-2xl font-bold text-white">@kg_art_design</h3>
+          <h3 className="mt-2 text-2xl font-bold text-white">{instagramHandle}</h3>
         </div>
         
         <div className="text-center">
           <a
-            href="https://www.instagram.com/kg_art_design"
+            href={instagramUrl}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-6 py-3 font-bold text-white transition hover:shadow-lg hover:shadow-pink-500/50"
