@@ -49,8 +49,8 @@ const instagramPosts: InstagramPost[] = [
 
 const { phoneDisplay, phoneHref, address, mapsHref, websiteUrl, websiteDisplay } = projectData.contact;
 
-const instagramHandle = "@kandgartdesigns";
-const instagramUrl = "https://www.instagram.com/kandgartdesigns/";
+const instagramHandle = "@kgartandesign";
+const instagramUrl = "https://www.instagram.com/kgartandesign/";
 
 const proofPoints = [
   { value: "7", label: "Featured transformations" },
